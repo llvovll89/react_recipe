@@ -80,7 +80,7 @@ export const Popular = () => {
     <>
       <div className="container">
         <Wrapper>
-          <h3> Popular Picks </h3>
+          <h3> Popular Recipe </h3>
 
           <Splide
             options={{
