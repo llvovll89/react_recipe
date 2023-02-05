@@ -14,6 +14,7 @@ export const Pages = () => {
       <AnimatePresence>
         <Routes location={location} key={location.path} >
           <Route path="/" element={<Home />} />
+          <Route path='/react_recipe' element={<Home />} />
           <Route path="/cook/:type" element={<Cook />} />
           <Route path="/search/:searchbar" element={<Search />} />
           <Route path="/recipeinfo/:name" element={<RecipeInfo />} />

@@ -29,7 +29,7 @@ const DetailInfo = styled.div`
   a {
     color: #03ff21;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1260px) {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     flex-direction: column;
@@ -56,7 +56,7 @@ const Button = styled.button`
 
 const Info = styled.div`
   margin-left: 10rem;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1260px){
     margin : 0 auto;
   }
 `;
